@@ -1,0 +1,14 @@
+<!--pages/User/User.wxml-->
+<view class="Head_Row">
+
+  <view class="Head_Portarit" bindtap="HeadPor" ></view>
+  <view class="messges">
+   <text class="username">昵称:  {{username}}</text>
+   
+    <text class="passname">账号:  {{passname}}</text>
+  </view>
+</view>
+<view class="user_config" bindtap="">消息中心</view>
+<view class="user_config" bindtap="">最近冥想</view>
+<view class="user_config" bindtap="">每日提醒</view>
+<view class="user_config" bindtap="">使用纪录</view>
