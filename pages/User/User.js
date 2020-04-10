@@ -1,8 +1,29 @@
 // pages/User/User.js
 Page({
-  HeadPor:function(){
+  Head_Row:function(){
+    console.log('点击了个人信息栏')
+  },
+  Head_Portarit:function(){
     console.log('点击了头像')
   },
+  Message_Center:function(){
+    console.log('点击了信息中心')
+  }, 
+  Recent_Used:function(){
+    console.log('点击了最近冥想')
+  },
+  Daily_Reminder:function(){
+    console.log('点击了每日提醒')
+
+  },
+  Usager_record:function(){
+    console.log('点击了使用纪录')
+  },
+
+  
+
+
+
   /**
    * 页面的初始数据
    */
